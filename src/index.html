@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تسک دوره جاوااسکریپت</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 id="header"><a href=""> لیست تراکنش ها </a></h1>
+
+      <div class="container-input">
+        <input
+          type="text"
+          id="search-input"
+          class="hidden"
+          placeholder="جستجو تراکنش..."
+        />
+      </div>
+    </div>
+    <div class="btn-container">
+      <a href="" class="transaction-btn">بارگذاری تراکنش ها</a>
+    </div>
+
+    <div>
+      <table class="table-transaction hidden">
+        <!-- <tr>
+          <td>ردیف</td>
+          <td>نوع تراکنش</td>
+          <td>
+            <button type="submit" class="sort-btn-price">
+              <p>مبلغ</p>
+              <i id="price-asc" class="fa-solid fa-arrow-down fa-arrow-up"></i>
+              <i
+                id="price-desc"
+                class="fa-solid fa-arrow-up hidden"
+                display="none"
+              ></i>
+            </button>
+          </td>
+          <td>شماره پیگیری</td>
+          <td>
+            <button type="submit" class="sort-btn-date">
+              <p>تاریخ تراکنش</p>
+              <i id="date-asc" class="fa-solid fa-arrow-down fa-arrow-up"></i>
+              <i
+                id="date-desc"
+                class="fa-solid fa-arrow-up hidden"
+                display="none"
+              ></i>
+            </button>
+          </td>
+        </tr> -->
+      </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
