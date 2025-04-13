@@ -76,7 +76,7 @@ html {
   color: var(--color-secondary-0);
   background-color: var(--color-primary-600);
   padding: 1rem 2.2rem;
-  border-radius: 1rem;
+  border-radius: var(--border-radius-tiny);
 }
 
 .btn-container {
@@ -91,7 +91,7 @@ html {
   background-color: var(--color-secondary-100);
   border: 2px solid var(color-secondary-100);
   padding: 0.5rem 6rem;
-  border-radius: 1rem;
+  border-radius: var(--border-radius-tiny);
 }
 
 .table-transaction {
